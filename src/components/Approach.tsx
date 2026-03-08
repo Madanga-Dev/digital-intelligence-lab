@@ -45,7 +45,7 @@ const Approach: React.FC = () => {
                     <MapPin className="mt-1 text-blue-200" />
                     <div>
                       <p className="font-bold">Location</p>
-                      <p className="text-blue-100 text-sm">Kenya (Hybrid or In-Person)</p>
+                      <p className="text-blue-100 text-sm">Kenya (Virtual)</p>
                       <p className="text-blue-100 text-sm">Scalable across counties</p>
                     </div>
                   </div>

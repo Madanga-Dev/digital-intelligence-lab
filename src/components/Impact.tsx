@@ -27,7 +27,7 @@ const Impact: React.FC = () => {
             <span className="text-blue-600 font-bold uppercase tracking-widest text-sm mb-4 block">Our Impact Model</span>
             <h2 className="text-3xl md:text-5xl font-bold text-gray-900 mb-8">Measurable Results Per Cohort</h2>
             <p className="text-gray-600 text-lg mb-10">
-              Impact is not assumed — it is measured. We track every participant's journey from baseline to success using a structured monitoring framework.
+              Impact is not assumed, it is measured. We track every participant's journey from baseline to success using a structured monitoring framework.
             </p>
 
             <div className="space-y-4 mb-10">

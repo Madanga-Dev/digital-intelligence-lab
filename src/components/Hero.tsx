@@ -39,8 +39,16 @@ const Hero: React.FC = () => {
             transition={{ duration: 0.6, delay: 0.2 }}
             className="flex flex-wrap gap-4 mb-12"
           >
-            <button className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-4 rounded-xl font-bold transition-all shadow-xl shadow-blue-500/20 flex items-center gap-2 group">
+            <button className="bg-orange-600 hover:bg-blue-700 text-white px-8 py-4 rounded-xl font-bold transition-all shadow-xl shadow-blue-500/20 flex items-center gap-2 group">
+              Needs Assessment <ArrowRight size={20} className="group-hover:translate-x-1 transition-transform" />
+            </button>
+            <a href='https://forms.zohopublic.com/beyondataict/form/BeyondDataICTDigitalIntelligenceLab/formperma/bBhDRCDslEF1hKRchAnrXZGygUUrem-xCSQ4BznYUcE' target="_blank" rel="noopener noreferrer">
+            <button className="bg-blue-600 hover:bg-orange-700 text-white px-8 py-4 rounded-xl font-bold transition-all shadow-xl shadow-blue-500/20 flex items-center gap-2 group">
               Apply Now <ArrowRight size={20} className="group-hover:translate-x-1 transition-transform" />
+            </button>
+            </a>
+            <button className="bg-orange-600 hover:bg-blue-700 text-white px-8 py-4 rounded-xl font-bold transition-all shadow-xl shadow-blue-500/20 flex items-center gap-2 group">
+              Become a Mentor <ArrowRight size={20} className="group-hover:translate-x-1 transition-transform" />
             </button>
             <button className="bg-white/10 hover:bg-white/20 text-white border border-white/30 backdrop-blur-md px-8 py-4 rounded-xl font-bold transition-all">
               Partner With Us
@@ -78,7 +86,7 @@ const Hero: React.FC = () => {
               </div>
               <div>
                 <p className="text-white font-bold text-xl leading-none">Kenya</p>
-                <p className="text-blue-200/70 text-sm">Hybrid/In-Person</p>
+                <p className="text-blue-200/70 text-sm">Virtual</p>
               </div>
             </div>
           </motion.div>
